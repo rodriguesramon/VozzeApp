@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{27E7C774-1A60-4F43-BC90-672EC16641EE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="VozzeApp/App.xaml.cs">
+    <Files>
+      <File FileName="VozzeApp/App.xaml.cs" Line="17" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.VozzeApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:VozzeApp" 
+             x:Class="VozzeApp.MainPage" BackgroundImage="Background.png">
+    <ContentPage.Content>
+        
+        
+        <Grid Padding="5">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition/>
+                <RowDefinition/>
+                
+                <RowDefinition Height="45"/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Button Grid.Row="0" Grid.Column="0" x:Name="btnFeliz" Clicked="btnFeliz_Clicked" BorderWidth="1" BorderRadius="30" BorderColor="#FF6A6A"  />
+            <Button Grid.Row="0" Grid.Column="1" x:Name="btnFome" Clicked="btnFome_Clicked" BorderWidth="1" BorderRadius="30" BorderColor="#FF6A6A"/>
+            
+            <Button Grid.Row="1" Grid.Column="0"  x:Name="btnChorando" Clicked="btnChorando_Clicked" BorderWidth="1" BorderRadius="30" BorderColor="#FF6A6A"/>
+            <Button Grid.Row="1" Grid.Column="1"  x:Name="btnBanheiro" Clicked="btnBanheiro_Clicked" BorderWidth="1" BorderRadius="30" BorderColor="#FF6A6A"/>
+            
+            <Button Grid.Row="2" Grid.Column="0"  x:Name="btnRaiva" Clicked="btnRaiva_Clicked" BorderWidth="1" BorderRadius="30" BorderColor="#FF6A6A"/>
+            <Button Grid.Row="2" Grid.Column="1"  x:Name="btnSono" Clicked="btnSono_Clicked" BorderWidth="1" BorderRadius="30" BorderColor="#FF6A6A"/>
+         
+            <Button Grid.Row="3" Grid.Column="0" Text="SIM" x:Name="btnSim" Clicked="btnSim_Clicked" BorderWidth="1" BorderRadius="10" BackgroundColor="#2E8B57" TextColor="White" FontSize="20" />
+            <Button Grid.Row="3" Grid.Column="1" Text="NÃO" x:Name="btnNao" Clicked="btnNao_Clicked" BorderWidth="1" BorderRadius="10" BackgroundColor="#B22222" TextColor="White" FontSize="20" />
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

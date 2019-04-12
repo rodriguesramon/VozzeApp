@@ -1,0 +1,16 @@
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/VozzeApp.csprojAssemblyReference.cache
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/DefinicaoPage.xaml.g.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/Menu.xaml.g.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/Test.xaml.g.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/VozzeApp.csproj.CoreCompileInputs.cache
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/VozzeApp.AssemblyInfoInputs.cache
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/VozzeApp.AssemblyInfo.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/VozzeApp.dll
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/VozzeApp.pdb
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/Page.xaml.g.cs
+/Users/aluno/Projects/VozzeApp/VozzeApp/bin/Debug/netstandard2.0/VozzeApp.deps.json
+/Users/aluno/Projects/VozzeApp/VozzeApp/bin/Debug/netstandard2.0/VozzeApp.dll
+/Users/aluno/Projects/VozzeApp/VozzeApp/bin/Debug/netstandard2.0/VozzeApp.pdb
+/Users/aluno/Projects/VozzeApp/VozzeApp/obj/Debug/netstandard2.0/XamlC.stamp
