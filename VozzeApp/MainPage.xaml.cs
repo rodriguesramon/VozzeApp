@@ -2,13 +2,22 @@
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xamarin.Forms;
+using Plugin.SimpleAudioPlayer;
 
 namespace VozzeApp
 {
     public partial class MainPage : ContentPage
     {
+        public void executeAudio(string file){
+            var player = CrossSimpleAudioPlayer.Current;
+            player.Load(file);
+            player.Play();
+        }
+
         async void btnFeliz_Clicked(object sender, System.EventArgs e)
         {
+            var file =  App.Sexo + "_Feliz.mp3";
+            executeAudio(file);
 
             await Task.WhenAny<bool>
             (
@@ -17,10 +26,14 @@ namespace VozzeApp
             );
             await btnFeliz.ScaleTo(1, 400);
 
+
         }
 
         async void btnFome_Clicked(object sender, System.EventArgs e)
         {
+            var file = App.Sexo + "_Fome.mp3";
+            executeAudio(file);
+
             await Task.WhenAny<bool>
             (
                 btnFome.RotateTo(360, 1000),
@@ -31,6 +44,9 @@ namespace VozzeApp
 
         async void btnChorando_Clicked(object sender, System.EventArgs e)
         {
+            var file = App.Sexo + "_Triste.mp3";
+            executeAudio(file);
+
             await Task.WhenAny<bool>
             (
                 btnChorando.RotateTo(360, 1000),
@@ -41,6 +57,9 @@ namespace VozzeApp
 
         async void btnBanheiro_Clicked(object sender, System.EventArgs e)
         {
+            var file = App.Sexo + "_Banheiro.mp3";
+            executeAudio(file);
+
             await Task.WhenAny<bool>
             (
                 btnBanheiro.RotateTo(360, 1000),
@@ -51,6 +70,9 @@ namespace VozzeApp
 
         async void btnRaiva_Clicked(object sender, System.EventArgs e)
         {
+            var file = App.Sexo + "_Raiva.mp3";
+            executeAudio(file);
+
             await Task.WhenAny<bool>
             (
                 btnRaiva.RotateTo(360, 1000),
@@ -61,6 +83,9 @@ namespace VozzeApp
 
         async void btnSono_Clicked(object sender, System.EventArgs e)
         {
+            var file = App.Sexo + "_Sono.mp3";
+            executeAudio(file);
+
             await Task.WhenAny<bool>
             (
                 btnSono.RotateTo(360, 1000),
@@ -71,12 +96,14 @@ namespace VozzeApp
 
         void btnSim_Clicked(object sender, System.EventArgs e)
         {
-
+            var file = "S_" + App.Sexo + ".mp3";
+            executeAudio(file);
         }
 
         void btnNao_Clicked(object sender, System.EventArgs e)
         {
-
+            var file = "N_" + App.Sexo + ".mp3";
+            executeAudio(file);
         }
 
         public void GetConfig()
@@ -90,11 +117,8 @@ namespace VozzeApp
 
         public void CheckFile()
         {
-            if (File.Exists(App.arquivoConfig))
-            {
-            }
-            else
-            {
+            if (File.Exists(App.arquivoConfig)){
+            }else{
                 App.ContentFileConfig = "{'sexo' : 'F', 'cor' : 'N'}";
                 File.WriteAllText(App.arquivoConfig, App.ContentFileConfig);
             }
@@ -132,9 +156,6 @@ namespace VozzeApp
             btnRaiva.BackgroundColor = Color.FromHsla(255, 100, 60, 0.4);
             btnSono.BackgroundColor = Color.FromHsla(255, 100, 60, 0.4);
 
-
-
         }
-    
     }       
 }

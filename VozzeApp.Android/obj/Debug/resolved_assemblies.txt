@@ -9,6 +9,8 @@
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Plugin.SimpleAudioPlayer.Abstractions.dll
+/Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Plugin.SimpleAudioPlayer.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Prism.Autofac.Forms.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Prism.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Prism.Forms.dll
@@ -66,4 +68,5 @@
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/System.Web.Services.dll
+/Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/System.IO.dll
 /Users/aluno/Projects/VozzeApp/VozzeApp.Android/obj/Debug/android/assets/Mono.Security.dll

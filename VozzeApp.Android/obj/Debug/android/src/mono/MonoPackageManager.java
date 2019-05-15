@@ -114,6 +114,8 @@ class MonoPackageManager_Resources {
 		"Com.ViewPagerIndicator.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.SimpleAudioPlayer.Abstractions.dll",
+		"Plugin.SimpleAudioPlayer.dll",
 		"Prism.Autofac.Forms.dll",
 		"Prism.dll",
 		"Prism.Forms.dll",

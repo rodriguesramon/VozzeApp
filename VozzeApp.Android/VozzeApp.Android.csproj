@@ -84,35 +84,35 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-    <AndroidResource Include="Resources\drawable\MB_CHORANDO.png" />
-    <AndroidResource Include="Resources\drawable\MB_BANHEIRO.png" />
-    <AndroidResource Include="Resources\drawable\MB_FELIZ.png" />
-    <AndroidResource Include="Resources\drawable\MB_FOME.png" />
-    <AndroidResource Include="Resources\drawable\MB_SONO.png" />
-    <AndroidResource Include="Resources\drawable\MB_RAIVA.png" />
-    <AndroidResource Include="Resources\drawable\MN_CHORANDO.png" />
-    <AndroidResource Include="Resources\drawable\MN_BANHEIRO.png" />
-    <AndroidResource Include="Resources\drawable\MN_FELIZ.png" />
-    <AndroidResource Include="Resources\drawable\MN_SONO.png" />
-    <AndroidResource Include="Resources\drawable\MN_FOME.png" />
-    <AndroidResource Include="Resources\drawable\MN_RAIVA.png" />
-    <AndroidResource Include="Resources\drawable\FN_FELIZ.png" />
-    <AndroidResource Include="Resources\drawable\FB_BANHEIRO.png" />
-    <AndroidResource Include="Resources\drawable\FB_SONO.png" />
-    <AndroidResource Include="Resources\drawable\FN_CHORANDO.png" />
-    <AndroidResource Include="Resources\drawable\FB_FOME.png" />
-    <AndroidResource Include="Resources\drawable\FB_CHORANDO.png" />
-    <AndroidResource Include="Resources\drawable\FN_SONO.png" />
-    <AndroidResource Include="Resources\drawable\FB_FELIZ.png" />
-    <AndroidResource Include="Resources\drawable\FN_BANHEIRO.png" />
-    <AndroidResource Include="Resources\drawable\FN_RAIVA.png" />
-    <AndroidResource Include="Resources\drawable\FN_FOME.png" />
-    <AndroidResource Include="Resources\drawable\FB_RAIVA.png" />
     <AndroidResource Include="Resources\drawable\Background.png" />
     <AndroidResource Include="Resources\drawable\logo.png" />
     <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable\splash.axml" />
     <AndroidResource Include="Resources\mipmap-anydpi-v26\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\FB_BANHEIRO.png" />
+    <AndroidResource Include="Resources\drawable\FB_CHORANDO.png" />
+    <AndroidResource Include="Resources\drawable\FB_FELIZ.png" />
+    <AndroidResource Include="Resources\drawable\FB_FOME.png" />
+    <AndroidResource Include="Resources\drawable\FB_RAIVA.png" />
+    <AndroidResource Include="Resources\drawable\FB_SONO.png" />
+    <AndroidResource Include="Resources\drawable\FN_BANHEIRO.png" />
+    <AndroidResource Include="Resources\drawable\FN_CHORANDO.png" />
+    <AndroidResource Include="Resources\drawable\FN_FELIZ.png" />
+    <AndroidResource Include="Resources\drawable\FN_FOME.png" />
+    <AndroidResource Include="Resources\drawable\FN_RAIVA.png" />
+    <AndroidResource Include="Resources\drawable\FN_SONO.png" />
+    <AndroidResource Include="Resources\drawable\MB_BANHEIRO.png" />
+    <AndroidResource Include="Resources\drawable\MB_CHORANDO.png" />
+    <AndroidResource Include="Resources\drawable\MB_FELIZ.png" />
+    <AndroidResource Include="Resources\drawable\MB_FOME.png" />
+    <AndroidResource Include="Resources\drawable\MB_RAIVA.png" />
+    <AndroidResource Include="Resources\drawable\MB_SONO.png" />
+    <AndroidResource Include="Resources\drawable\MN_BANHEIRO.png" />
+    <AndroidResource Include="Resources\drawable\MN_CHORANDO.png" />
+    <AndroidResource Include="Resources\drawable\MN_FELIZ.png" />
+    <AndroidResource Include="Resources\drawable\MN_FOME.png" />
+    <AndroidResource Include="Resources\drawable\MN_RAIVA.png" />
+    <AndroidResource Include="Resources\drawable\MN_SONO.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -126,6 +126,24 @@
       <Project>{EF5A1EC2-BB82-45F7-BA90-E9B1EAD36E49}</Project>
       <Name>VozzeApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\N_F.mp3" />
+    <AndroidAsset Include="Assets\N_M.mp3" />
+    <AndroidAsset Include="Assets\S_F.mp3" />
+    <AndroidAsset Include="Assets\S_M.mp3" />
+    <AndroidAsset Include="Assets\F_Banheiro.mp3" />
+    <AndroidAsset Include="Assets\F_Feliz.mp3" />
+    <AndroidAsset Include="Assets\F_Fome.mp3" />
+    <AndroidAsset Include="Assets\F_Raiva.mp3" />
+    <AndroidAsset Include="Assets\F_Sono.mp3" />
+    <AndroidAsset Include="Assets\F_Triste.mp3" />
+    <AndroidAsset Include="Assets\M_Banheiro.mp3" />
+    <AndroidAsset Include="Assets\M_Feliz.mp3" />
+    <AndroidAsset Include="Assets\M_Fome.mp3" />
+    <AndroidAsset Include="Assets\M_Raiva.mp3" />
+    <AndroidAsset Include="Assets\M_Sono.mp3" />
+    <AndroidAsset Include="Assets\M_Triste.mp3" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
