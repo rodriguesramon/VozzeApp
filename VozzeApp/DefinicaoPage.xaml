@@ -1,5 +1,56 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="VozzeApp.DefinicaoPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="VozzeApp.DefinicaoPage">
+    <StackLayout BackgroundColor="#B0E0E6">
+        <StackLayout HorizontalOptions="CenterAndExpand" 
+                     VerticalOptions="StartAndExpand"
+                     Orientation="Horizontal" Margin="0, 60, 0, 10"
+                     >
+           <Button Text="MENINA" WidthRequest="155" HeightRequest="120"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   VerticalOptions="End" 
+                   BackgroundColor="#A0522D"
+                   TextColor="#FA8072"
+                   HorizontalOptions="Start"
+                   Clicked="DefineFN"
+                   />
+            
+           <Button Text="MENINA" WidthRequest="155" HeightRequest="120"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   VerticalOptions="End" 
+                   BackgroundColor="#FFDEAD"
+                   TextColor="#FF00FF"
+                   HorizontalOptions="Start"
+                   Clicked="DefineFB"
+                   />
+        </StackLayout>
+        
+        
+         <StackLayout HorizontalOptions="Center" 
+                     VerticalOptions="StartAndExpand"
+                     Orientation="Horizontal" Margin="0, 10, 0, 0"
+                     >
+           <Button Text="MENINO" FontSize="30" WidthRequest="155" HeightRequest="120"
+                   VerticalOptions="End" 
+                   FontAttributes="Bold"
+                   BackgroundColor="#A0522D"
+                   TextColor="#00FF00"
+                   HorizontalOptions="Start"
+                   Clicked="DefineMN"
+                   />
+            
+           <Button Text="MENINO" FontSize="30" WidthRequest="155" HeightRequest="120"
+                   VerticalOptions="End" 
+                   FontAttributes="Bold"
+                   BackgroundColor="#FFDEAD"
+                   TextColor="#228B22"
+                   HorizontalOptions="Start"
+                   Clicked="DefineMB"
+                   />
+        </StackLayout>
+          
+     </StackLayout>
 </ContentPage>

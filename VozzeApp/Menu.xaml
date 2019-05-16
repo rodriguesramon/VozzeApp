@@ -27,24 +27,12 @@
 
                     <TableView Intent="Menu">
                         <TableSection>
-                            <ViewCell >
+                            <ViewCell Tapped="DefineConfigs">
                                 <StackLayout Padding="15,10">
                                     <Label Text="Configurações" VerticalTextAlignment="Center"/>
                                 </StackLayout>
                             </ViewCell>
-
-                            <ViewCell Tapped="DefineConfigs">
-                                <StackLayout Padding="15,10">
-                                    <Label Text="Page 2" VerticalTextAlignment="Center"/>
-                                </StackLayout>
-                            </ViewCell>
-                            
-                             <ViewCell Tapped="Handle_Tapped">
-                                <StackLayout Padding="15,10">
-                                    <Label Text="Page Test" VerticalTextAlignment="Center"/>
-                                </StackLayout>
-                            </ViewCell>
-                            
+                             
                         </TableSection>
                     </TableView>
                 </StackLayout>

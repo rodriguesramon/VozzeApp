@@ -22,7 +22,7 @@ namespace VozzeApp
 
             //File.WriteAllText(nomeArquivo, conteudoTexto);
 
-            Detail.Navigation.PushAsync(new Test());
+            Detail.Navigation.PushAsync(new DefinicaoPage());
             IsPresented = false;
         }
 
